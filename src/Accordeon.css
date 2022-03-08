@@ -1,0 +1,36 @@
+.str :first-child{
+    font-weight: 500;
+}
+.str{
+    display: inline-flex;
+    cursor: pointer;
+}
+.overlay{
+    padding:5px;
+    padding-top: 2.5px;
+    position: absolute;
+    transform: translateY(-20%);
+    background-color: rgba(49, 49, 49, 0.8);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /* display:flex;
+    justify-content: center;
+    align-items: flex-start; */
+}
+.subStr{
+    color:white;
+}
+.subStr button{
+    background-color: red;
+    color:white;
+    position:absolute;
+    top:0;
+    right:0;
+    width: 5px;
+    height:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+}
